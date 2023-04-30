@@ -1,0 +1,52 @@
+.container {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    width: 500px;
+    height: 100px;
+}
+
+.container .service_img {
+    background-color: #8AAAE3;
+    padding: 30px 50px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.container .service_details {
+    padding-top: 20px;
+    width: 290px;
+    justify-content: space-between;
+}
+
+.container .service_details .service_title,
+.container .service_details .service_price{
+    color: black;
+    font-size: 20px;
+}
+
+.container .service_details .service_title {
+    float: left;
+}
+
+.container .service_details .service_price {
+    float: right;
+}
+
+.container .service_details .service_action {
+    float: right;
+    padding: 30px 50px;
+    background-color: red;
+}
+
+.container .service_action button {
+    background-color: red;
+    color: white;
+    border-color: red;
+    height: 100px;
+    width: 60px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}

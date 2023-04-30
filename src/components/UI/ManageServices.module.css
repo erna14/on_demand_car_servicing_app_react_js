@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+
+.container .current_services_list {
+    margin-right: 90px;
+    height: 540px;
+}
+
+.container .current_services_list .scroll{
+    overflow: auto;
+    height: 540px;
+    padding-right: 20px;
+}
+.container .current_services_list h2 {
+    color: #1b2664;
+}
+

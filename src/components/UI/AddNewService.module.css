@@ -1,0 +1,72 @@
+.add_new_service_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.add_new_service_container form {
+    width: auto;
+    background-color: #8AAAE3;
+    padding: 25px 45px 30px 45px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+
+.add_new_service_container form .title {
+    color: #1b2664;
+    text-align: center;
+}
+
+.add_new_service_container form .add_service_photo {
+    margin-bottom: 10px;
+    display: none;
+}
+
+.add_new_service_container form .details_input {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.add_new_service_container form .details_input .custom_file_upload {
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.add_new_service_container form .details_input .custom_file_upload:hover {
+    background-color: #3e8e41;
+}
+
+.add_new_service_container form .new_service_details {
+    height: 40px;
+    width: 250px;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    border: 1px solid white;
+    font-size: 16px;
+}
+
+.add_new_service_container form .add_service_btn {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.add_new_service_container form .add_service_btn button {
+    color: white;
+    font-size: 15px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+}
+

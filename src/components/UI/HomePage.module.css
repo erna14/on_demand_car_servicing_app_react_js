@@ -1,0 +1,62 @@
+.hexagon_container {
+    width: 950px;
+    margin-left: 240px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.hexagon_container .hexagon_area_first,
+.hexagon_container .hexagon_area_second {
+    display: flex;
+}
+
+.hexagon_container .hexagon_area_second {
+    transform: translateY(-45px);
+}
+
+.hexagon {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    margin: 0 10px;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background-color: #283790;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.hexagon h2 {
+    color: white;
+    margin-top: 70px;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.hexagon h3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.hexagon:hover {
+    background-color: #1b2664;
+    transform: scale(0.8);
+}
+
+a {
+    text-decoration: none;
+}
+
+

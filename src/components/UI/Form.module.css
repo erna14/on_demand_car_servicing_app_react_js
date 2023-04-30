@@ -1,0 +1,85 @@
+.container {
+    max-width: 460px;
+    padding: 0 20px;
+    margin: 80px auto;
+}
+
+.auth_form {
+    width: 100%;
+    background: #8AAAE3;
+    border-radius: 20px;
+}
+
+.title_box {
+    height: 90px;
+    color: #283790;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.auth_form form {
+    padding: 30px 40px 30px 40px;
+}
+
+.auth_input {
+    height: 45px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.auth_input input {
+    height: 40px;
+    width: 93%;
+    outline: none;
+    padding-left: 20px;
+    border-radius: 25px;
+    border: 1px solid white;
+    font-size: 16px;
+}
+
+.change_password_option{
+    font-size: 15px;
+    color: #283790;
+    font-weight: lighter;
+    cursor: pointer;
+    padding-left: 5px;
+}
+.auth_button {
+    margin-top: 20px;
+}
+
+button {
+    color: #8AAAE3;
+    width: 100%;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 0.6rem;
+    background: #283790;
+    border: 1px solid #283790;
+    cursor: pointer;
+}
+
+button:hover,
+button:active {
+    background: #1b2664;
+    border: 1px solid #1b2664;
+}
+
+.auth_option {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.auth_option a {
+    color: #283790;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bolder;
+}

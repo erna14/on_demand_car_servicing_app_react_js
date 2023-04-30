@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    background-color: #283790;
+    padding: 13px 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content: space-between;
+}
+
+.header .app_name {
+    float: left;
+    color: #A7D6F4;
+    text-align: center;
+    font-style: italic;
+    padding-right: 5px;
+}
+
+.header .page_name {
+    color: #A7D6F4;
+    font-style: italic;
+    font-size: 27px;
+    padding: 0 5px;
+}
+
+.header a {
+    float: left;
+    color: #A7D6F4;
+    text-align: center;
+    padding: 18px 13px;
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 27px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.header a:hover,
+.header a:active {
+    background-color: rgba(64, 75, 173, 0.85);
+}
+
+.header_right {
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header_right {
+        float: none;
+    }
+}
