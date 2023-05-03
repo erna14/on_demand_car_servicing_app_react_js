@@ -1,5 +1,6 @@
 import React, {Fragment, useState} from "react";
 import classes from "../UI/AddNewService.module.css";
+import UploadPhotoService from "./UploadService";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faCloudArrowUp} from "@fortawesome/free-solid-svg-icons";
 
@@ -32,18 +33,7 @@ function AddNewService() {
                 <form onSubmit={addNewServiceHandler}>
                     <h2 className={classes.title}>Add New Service</h2>
                     <div className={classes.details_input}>
-                        <label htmlFor="file-upload" className={classes.custom_file_upload}>
-                            <FontAwesomeIcon icon={faCloudArrowUp}/> Upload Image
-                        </label>
-                        <input
-                            className={classes.add_service_photo}
-                            name='servicePhoto'
-                            type='file'
-                            placeholder='Add Photo'
-                            accept="image/*"
-                            onChange={servicePhotoInputHandler}
-                            value={servicePhoto}
-                        />
+                    <UploadPhotoService/>
                     </div>
                     <div className={classes.details_input}>
                         <input
