@@ -1,12 +1,10 @@
 .container {
-    max-width: 600px;
-    padding: 0 20px;
-    margin: 80px auto;
+    max-width: 550px;
+    padding: 10px 20px;
+    margin: 25px auto;
     min-height: 450px;
-    height:auto;
     background-color: #8AAAE3;
     border-radius: 40px;
-    
 }
 
 .roundButton {
@@ -30,7 +28,8 @@
   }
   
   .roundButton:hover {
-    background-color: #2980b9;
+      background-color: #2980b9;
+      border: 1px solid #2980b9;
   }
 
   .photoDiv{
@@ -47,9 +46,16 @@
   h3{
     font-size: 20px;
     font-weight: bold;
+      padding: 0;
+      margin: 0;
   }
   
   h4{
-    font-weight: 400;
-    font-size: 18px;
+      font-weight: 400;
+      font-size: 18px;
+      margin: 10px 0;
+  }
+
+  .info {
+      margin: 20px 0;
   }

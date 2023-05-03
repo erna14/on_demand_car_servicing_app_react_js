@@ -8,17 +8,23 @@ function MyProfile() {
     return(
         <Fragment>
             <div className={classes.container}>
-
                 <div className={classes.photoDiv}>
                     <UploadPhoto/>
                 </div>
                 <div className={classes.profileInfo}>
-                    <h3>Email</h3>
-                    <h4>johndoe@gmail.com</h4>
-                    <h3>Company Name</h3>
-                    <h4>My CompanyCo</h4>
-                    <h3>Role</h3>
-                    <h4>Administrator</h4>
+                    <div className={classes.info}>
+                        <h3>Email</h3>
+                        <h4>johndoe@gmail.com</h4>
+                    </div>
+                    <div className={classes.info}>
+                        <h3>Company Name</h3>
+                        <h4>My CompanyCo</h4>
+                    </div>
+                    <div className={classes.info}>
+                        <h3>Role</h3>
+                        <h4>Administrator</h4>
+                    </div>
+
                 </div>
 
             </div>
