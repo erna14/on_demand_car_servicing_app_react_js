@@ -1,0 +1,39 @@
+.container {
+    max-width: 900px;
+    padding: 0 20px;
+    margin: 80px auto;
+    min-height: 450px;
+    height:auto;
+    background-color: #8AAAE3;
+    border-radius: 40px;
+    border-top: 20px;
+    
+}
+
+.toggle {
+    background-color: #8AAAE3;
+    border: 1px solid #283790;
+    padding: 10px 20px;
+    cursor: context-menu;
+    margin-top: 1px;
+    
+  }
+
+  button.toggle{
+    text-align: left;
+    color: black;
+    border-radius: 0%;
+    border-top: 1px solid #283790;
+    border-bottom: 1px solid #283790;
+    border-left: none;
+    border-right: none;
+    padding: 20px;
+    
+  }
+
+  .panelContent {
+    background-color: #8AAAE3;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }

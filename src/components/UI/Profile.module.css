@@ -1,0 +1,55 @@
+.container {
+    max-width: 600px;
+    padding: 0 20px;
+    margin: 80px auto;
+    min-height: 450px;
+    height:auto;
+    background-color: #8AAAE3;
+    border-radius: 40px;
+    
+}
+
+.roundButton {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #283790;
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background-color 0.2s ease;
+    position: relative;
+    left:70px;
+    z-index: 1;
+    top: -240px;
+  }
+  
+  .roundButton:hover {
+    background-color: #2980b9;
+  }
+
+  .photoDiv{
+    padding: 20px;
+  }
+
+  .profileInfo{
+    max-width: 400px;
+    margin-top: -60px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  h3{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  h4{
+    font-weight: 400;
+    font-size: 18px;
+  }

@@ -1,22 +1,20 @@
 .calendar {
     width: 300px;
     border: 1px solid #ccc;
-    padding: 30px 20px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
     text-align: center;
-    background-color: white;
-    border-radius: 30px;
-    justify-content: center;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .month {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -24,9 +22,6 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-    background-color: #7898e5;
-    padding: 5px 10px;
-    border-radius: 20px;
 }
 
 .weekdays div {
@@ -57,7 +52,7 @@
 }
 
 .days div:hover {
-    background-color: rgba(0, 119, 204, 0.42);
+    background-color: #f0f0f0;
 }
 
 .days div.selected {
@@ -65,18 +60,16 @@
     color: #fff;
 }
 
-.calendar_button {
+button {
     background-color: #0077cc;
     color: #fff;
-    border: 1px solid #0077cc;
-    width: 40px;
-    /*padding: 5px 5px;*/
-    font-size: 12px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
     font-weight: bold;
     cursor: pointer;
 }
 
-.calendar_button:hover {
+button:hover {
     background-color: #005fa3;
-    border: 1px solid #005fa3;
 }
