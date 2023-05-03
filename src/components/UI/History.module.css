@@ -1,0 +1,48 @@
+.container {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #8AAAE3;
+    border-radius: 30px;
+    margin: 20px 50px;
+    padding: 50px ;
+}
+
+.table_history {
+    border-collapse: collapse;
+    width: 65%;
+    border-radius: 30px;
+    border: none;
+}
+
+.table_history td, .table_history th {
+    padding: 15px;
+}
+
+.table_history tr:nth-child(even) {
+    background-color: white;
+}
+
+.table_history tr:nth-child(odd) {
+    background-color: #ddd;
+}
+
+.table_history tr:first-child {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #283790;
+    color: white;
+}
+
+.table_history .status_finished {
+    color: #4CAF50;
+}
+
+.table_history .status_on_service {
+    color: #283790;
+}
+
+.table_history .status_pending {
+    color: red;
+}
